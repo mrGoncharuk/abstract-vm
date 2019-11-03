@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mhonchar/CLionProjects/avm/src/OperandFactory.cpp" "/Users/mhonchar/CLionProjects/avm/cmake-build-debug/CMakeFiles/avm.dir/src/OperandFactory.cpp.o"
-  "/Users/mhonchar/CLionProjects/avm/src/main.cpp" "/Users/mhonchar/CLionProjects/avm/cmake-build-debug/CMakeFiles/avm.dir/src/main.cpp.o"
+  "/Users/mhonchar/abstract-vm/src/Int8.cpp" "/Users/mhonchar/abstract-vm/cmake-build-debug/CMakeFiles/avm.dir/src/Int8.cpp.o"
+  "/Users/mhonchar/abstract-vm/src/OperandFactory.cpp" "/Users/mhonchar/abstract-vm/cmake-build-debug/CMakeFiles/avm.dir/src/OperandFactory.cpp.o"
+  "/Users/mhonchar/abstract-vm/src/main.cpp" "/Users/mhonchar/abstract-vm/cmake-build-debug/CMakeFiles/avm.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

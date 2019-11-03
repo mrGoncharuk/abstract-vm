@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/mhonchar/CLionProjects/avm/cmake-build-debug"/>
+				<Option working_dir="/Users/mhonchar/abstract-vm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/CLionProjects/avm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/CLionProjects/avm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/CLionProjects/avm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/CLionProjects/avm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/abstract-vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/abstract-vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/abstract-vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/abstract-vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/mhonchar/CLionProjects/avm/cmake-build-debug"/>
+				<Option working_dir="/Users/mhonchar/abstract-vm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/CLionProjects/avm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/CLionProjects/avm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/CLionProjects/avm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/CLionProjects/avm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/abstract-vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/abstract-vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/abstract-vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/abstract-vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/mhonchar/CLionProjects/avm/cmake-build-debug"/>
+				<Option working_dir="/Users/mhonchar/abstract-vm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/CLionProjects/avm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/CLionProjects/avm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/CLionProjects/avm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/CLionProjects/avm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/abstract-vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/abstract-vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/abstract-vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/abstract-vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="avm">
-				<Option output="/Users/mhonchar/CLionProjects/avm/cmake-build-debug/avm" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mhonchar/CLionProjects/avm/cmake-build-debug"/>
+				<Option output="/Users/mhonchar/abstract-vm/cmake-build-debug/avm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mhonchar/abstract-vm/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/CLionProjects/avm/cmake-build-debug/Makefile&quot;  VERBOSE=1 avm"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/CLionProjects/avm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/CLionProjects/avm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/CLionProjects/avm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/abstract-vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 avm"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/abstract-vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/abstract-vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/abstract-vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="avm/fast">
-				<Option output="/Users/mhonchar/CLionProjects/avm/cmake-build-debug/avm" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mhonchar/CLionProjects/avm/cmake-build-debug"/>
+				<Option output="/Users/mhonchar/abstract-vm/cmake-build-debug/avm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mhonchar/abstract-vm/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,26 +75,32 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/CLionProjects/avm/cmake-build-debug/Makefile&quot;  VERBOSE=1 avm/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/CLionProjects/avm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/CLionProjects/avm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/CLionProjects/avm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/abstract-vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 avm/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/abstract-vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/abstract-vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mhonchar/abstract-vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mhonchar/CLionProjects/avm/includes/IOperand.hpp">
+		<Unit filename="/Users/mhonchar/abstract-vm/includes/IOperand.hpp">
 			<Option target="avm"/>
 		</Unit>
-		<Unit filename="/Users/mhonchar/CLionProjects/avm/includes/OperandFactory.hpp">
+		<Unit filename="/Users/mhonchar/abstract-vm/includes/Int8.hpp">
 			<Option target="avm"/>
 		</Unit>
-		<Unit filename="/Users/mhonchar/CLionProjects/avm/src/OperandFactory.cpp">
+		<Unit filename="/Users/mhonchar/abstract-vm/includes/OperandFactory.hpp">
 			<Option target="avm"/>
 		</Unit>
-		<Unit filename="/Users/mhonchar/CLionProjects/avm/src/main.cpp">
+		<Unit filename="/Users/mhonchar/abstract-vm/src/Int8.cpp">
 			<Option target="avm"/>
 		</Unit>
-		<Unit filename="/Users/mhonchar/CLionProjects/avm/CMakeLists.txt">
+		<Unit filename="/Users/mhonchar/abstract-vm/src/OperandFactory.cpp">
+			<Option target="avm"/>
+		</Unit>
+		<Unit filename="/Users/mhonchar/abstract-vm/src/main.cpp">
+			<Option target="avm"/>
+		</Unit>
+		<Unit filename="/Users/mhonchar/abstract-vm/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

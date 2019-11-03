@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mhonchar/CLionProjects/avm
+CMAKE_SOURCE_DIR = /Users/mhonchar/abstract-vm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mhonchar/CLionProjects/avm/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mhonchar/abstract-vm/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mhonchar/CLionProjects/avm/cmake-build-debug/CMakeFiles /Users/mhonchar/CLionProjects/avm/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mhonchar/abstract-vm/cmake-build-debug/CMakeFiles /Users/mhonchar/abstract-vm/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mhonchar/CLionProjects/avm/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mhonchar/abstract-vm/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,33 @@ avm: cmake_check_build_system
 avm/fast:
 	$(MAKE) -f CMakeFiles/avm.dir/build.make CMakeFiles/avm.dir/build
 .PHONY : avm/fast
+
+src/Int8.o: src/Int8.cpp.o
+
+.PHONY : src/Int8.o
+
+# target to build an object file
+src/Int8.cpp.o:
+	$(MAKE) -f CMakeFiles/avm.dir/build.make CMakeFiles/avm.dir/src/Int8.cpp.o
+.PHONY : src/Int8.cpp.o
+
+src/Int8.i: src/Int8.cpp.i
+
+.PHONY : src/Int8.i
+
+# target to preprocess a source file
+src/Int8.cpp.i:
+	$(MAKE) -f CMakeFiles/avm.dir/build.make CMakeFiles/avm.dir/src/Int8.cpp.i
+.PHONY : src/Int8.cpp.i
+
+src/Int8.s: src/Int8.cpp.s
+
+.PHONY : src/Int8.s
+
+# target to generate assembly for a file
+src/Int8.cpp.s:
+	$(MAKE) -f CMakeFiles/avm.dir/build.make CMakeFiles/avm.dir/src/Int8.cpp.s
+.PHONY : src/Int8.cpp.s
 
 src/OperandFactory.o: src/OperandFactory.cpp.o
 
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... avm"
+	@echo "... src/Int8.o"
+	@echo "... src/Int8.i"
+	@echo "... src/Int8.s"
 	@echo "... src/OperandFactory.o"
 	@echo "... src/OperandFactory.i"
 	@echo "... src/OperandFactory.s"

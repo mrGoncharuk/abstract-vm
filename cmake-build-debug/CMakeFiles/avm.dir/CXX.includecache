@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/mhonchar/CLionProjects/avm/src/main.cpp
+/Users/mhonchar/abstract-vm/includes/IOperand.hpp
+string
+-
+
+/Users/mhonchar/abstract-vm/includes/OperandFactory.hpp
+IOperand.hpp
+/Users/mhonchar/abstract-vm/includes/IOperand.hpp
+
+/Users/mhonchar/abstract-vm/src/OperandFactory.cpp
+../includes/OperandFactory.hpp
+/Users/mhonchar/abstract-vm/includes/OperandFactory.hpp
+
+/Users/mhonchar/abstract-vm/src/main.cpp
 iostream
 -
 

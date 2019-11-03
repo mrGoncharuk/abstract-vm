@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/avm.dir/src/main.cpp.o"
   "CMakeFiles/avm.dir/src/OperandFactory.cpp.o"
+  "CMakeFiles/avm.dir/src/Int8.cpp.o"
   "avm.pdb"
   "avm"
 )
